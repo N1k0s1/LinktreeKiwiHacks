@@ -131,9 +131,11 @@ function createLinkButton(link) {
 
     // Icon or Image
     let iconHtml;
+    const isImagePath = link.icon.startsWith('http') || link.icon.startsWith('assets/') || link.icon.endsWith('.png') || link.icon.endsWith('.jpg') || link.icon.endsWith('.svg');
+    
     if (link.imageUrl) {
         iconHtml = `<img src="${link.imageUrl}" alt="${link.title}" class="link-icon" onerror="this.style.display='none'">`;
-    } else if (link.icon.startsWith('http')) {
+    } else if (isImagePath) {
         iconHtml = `<img src="${link.icon}" alt="${link.title}" class="link-icon" onerror="this.style.display='none'">`;
     } else {
         iconHtml = `<div class="link-icon-placeholder">${link.icon}</div>`;
