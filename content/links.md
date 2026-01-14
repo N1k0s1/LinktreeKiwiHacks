@@ -1,0 +1,4 @@
+- [KiwiHacks Website](https://kiwihacks.org/) | https://hc-cdn.hel1.your-objectstorage.com/s/v3/7b5e1aef75a19a91__kiwihacks__one_page_brief.png | featured
+- [Kiwihacks Signup Form!](https://forms.hackclub.com/kiwihacks) | https://hc-cdn.hel1.your-objectstorage.com/s/v3/7b5e1aef75a19a91__kiwihacks__one_page_brief.png | featured
+- [Join our Discord](https://discord.gg/war7YQqz4s) | https://hc-cdn.hel1.your-objectstorage.com/s/v3/7b5e1aef75a19a91__kiwihacks__one_page_brief.png
+- [Follow on Instagram](https://instagram.com/kiwihacks) | https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/132px-Instagram_logo_2016.svg.png

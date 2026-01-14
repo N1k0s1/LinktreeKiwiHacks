@@ -1,0 +1,285 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background: linear-gradient(180deg, #7a8c65 0%, #9aab84 30%, #9aab84 70%, #7a8c65 100%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 680px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Profile Section */
+.profile {
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.avatar {
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    background: #2d2d2d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 16px;
+    font-size: 48px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+
+.avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+h1 {
+    color: #2d7a2d;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.tagline {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* Social Icons */
+.social-icons {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 32px;
+}
+
+.social-icons a {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(10px);
+}
+
+.social-icons a:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateY(-3px);
+    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.2);
+}
+
+.social-icons a:hover .fa-instagram {
+    color: #E4405F;
+}
+
+.social-icons a:hover .fa-discord {
+    color: #5865F2;
+}
+
+.social-icons a:hover .fa-facebook {
+    color: #1877F2;
+}
+
+.social-icons a:hover .fa-globe {
+    color: #2d7a2d;
+}
+
+.social-icons a:hover .fa-envelope {
+    color: #f59e0b;
+}
+
+/* Links Container */
+.links-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.loading {
+    text-align: center;
+    color: #a1a1aa;
+    padding: 20px;
+}
+
+/* Link Button */
+.link-button {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 16px 20px;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 24px;
+    text-decoration: none;
+    color: #1a1a2e;
+    font-weight: 600;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.link-button:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 30px rgba(255, 255, 255, 0.2);
+    background: #ffffff;
+}
+
+.link-button:active {
+    transform: scale(0.98);
+}
+
+.link-button .link-icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 12px;
+    margin-right: 16px;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+.link-button .link-icon-placeholder {
+    width: 48px;
+    height: 48px;
+    border-radius: 12px;
+    margin-right: 16px;
+    background: #7a8c65;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    flex-shrink: 0;
+}
+
+.link-button .link-text {
+    flex: 1;
+    text-align: center;
+    padding-right: 64px;
+}
+
+.link-button .link-arrow {
+    position: absolute;
+    right: 20px;
+    color: #a1a1aa;
+    transition: transform 0.3s ease;
+}
+
+.link-button:hover .link-arrow {
+    transform: translateX(4px);
+}
+
+/* Featured Link */
+.link-button.featured {
+    background: rgba(255, 255, 255, 0.95);
+    color: #1a1a2e;
+}
+
+.link-button.featured:hover {
+    background: #ffffff;
+}
+
+.link-button.featured .link-arrow {
+    color: #a1a1aa;
+}
+
+/* Footer */
+.footer {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.footer p {
+    color: #52525b;
+    font-size: 14px;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+    body {
+        padding: 24px 16px;
+    }
+
+    .avatar {
+        width: 80px;
+        height: 80px;
+        font-size: 40px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    .tagline {
+        font-size: 14px;
+    }
+
+    .social-icons {
+        gap: 12px;
+    }
+
+    .social-icons a {
+        width: 40px;
+        height: 40px;
+        font-size: 18px;
+    }
+
+    .link-button {
+        padding: 14px 16px;
+        border-radius: 20px;
+    }
+
+    .link-button .link-icon,
+    .link-button .link-icon-placeholder {
+        width: 40px;
+        height: 40px;
+    }
+
+    .link-button .link-text {
+        font-size: 14px;
+        padding-right: 48px;
+    }
+}
+
+/* Animation */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.link-button {
+    animation: fadeInUp 0.5s ease forwards;
+}
+
+.link-button:nth-child(1) { animation-delay: 0.1s; }
+.link-button:nth-child(2) { animation-delay: 0.2s; }
+.link-button:nth-child(3) { animation-delay: 0.3s; }
+.link-button:nth-child(4) { animation-delay: 0.4s; }
+.link-button:nth-child(5) { animation-delay: 0.5s; }
+.link-button:nth-child(6) { animation-delay: 0.6s; }
