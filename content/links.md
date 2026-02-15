@@ -1,3 +1,5 @@
+- [Campfire Auckland — Sign Up](https://forms.hackclub.com/campfire-signup?event=rectnl9HThm9Gxjf0) | https://cdn.hackclub.com/019c63a5-88f7-72cb-afea-719c1a0e4635/image.png | featured
+- [Campfire Auckland — Event Info](https://campfire.hackclub.com/auckland) | https://cdn.hackclub.com/019c63a5-88f7-72cb-afea-719c1a0e4635/image.png | featured
 - [KiwiHacks Website](https://kiwihacks.org/) | assets/kiwihacks.png | featured
 - [Kiwihacks Signup Form!](https://forms.hackclub.com/kiwihacks) | assets/kiwihacks.png | featured
 - [Join our Discord](https://discord.gg/war7YQqz4s) | assets/kiwihacks.png
