@@ -17,7 +17,11 @@ const ICON_MAP = {
     'website': 'fas fa-globe',
     'envelope': 'fas fa-envelope',
     'email': 'fas fa-envelope',
-    'phone': 'fas fa-phone'
+    'phone': 'fas fa-phone',
+    'rocket': 'fas fa-rocket',
+    'calendar': 'fas fa-calendar-days',
+    'form': 'fas fa-clipboard-list',
+    'link': 'fas fa-link'
 };
 
 // Parse socials from Markdown file
@@ -116,9 +120,10 @@ async function fetchLinksFromMarkdown() {
 
 // Fallback links if markdown fails
 const FALLBACK_LINKS = [
-    { title: 'KiwiHacks Website', url: 'https://kiwihacks.org/', icon: '🥝', featured: true },
-    { title: 'Kiwihacks Signup Form!', url: 'https://forms.hackclub.com/kiwihacks', icon: '📝', featured: true },
-    { title: 'Join our Discord', url: 'https://discord.gg/war7YQqz4s', icon: '💬', featured: false }
+    { title: 'KiwiHacks Website', url: 'https://kiwihacks.org/', icon: 'globe', featured: true },
+    { title: 'KiwiHacks Nova - Coming September', url: 'https://kiwihacks.fillout.com/nova', icon: 'rocket', featured: true },
+    { title: 'Join our Discord', url: 'https://discord.gg/war7YQqz4s', icon: 'discord', featured: false },
+    { title: 'Follow us on Instagram', url: 'https://instagram.com/kiwihacks', icon: 'instagram', featured: false }
 ];
 
 // Create link button element
@@ -131,14 +136,20 @@ function createLinkButton(link) {
 
     // Icon or Image
     let iconHtml;
-    const isImagePath = link.icon.startsWith('http') || link.icon.startsWith('assets/') || link.icon.endsWith('.png') || link.icon.endsWith('.jpg') || link.icon.endsWith('.svg');
+    const iconValue = link.icon.trim();
+    const iconKey = iconValue.toLowerCase();
+    const iconClass = ICON_MAP[iconKey];
+    const iconModifier = iconKey.replace(/[^a-z0-9-]/g, '-');
+    const isImagePath = iconValue.startsWith('http') || iconValue.startsWith('assets/') || iconValue.endsWith('.png') || iconValue.endsWith('.jpg') || iconValue.endsWith('.svg');
     
     if (link.imageUrl) {
         iconHtml = `<img src="${link.imageUrl}" alt="${link.title}" class="link-icon" onerror="this.style.display='none'">`;
     } else if (isImagePath) {
-        iconHtml = `<img src="${link.icon}" alt="${link.title}" class="link-icon" onerror="this.style.display='none'">`;
+        iconHtml = `<img src="${iconValue}" alt="${link.title}" class="link-icon" onerror="this.style.display='none'">`;
+    } else if (iconClass) {
+        iconHtml = `<div class="link-icon-symbol link-icon-${iconModifier}" aria-hidden="true"><i class="${iconClass}"></i></div>`;
     } else {
-        iconHtml = `<div class="link-icon-placeholder">${link.icon}</div>`;
+        iconHtml = `<div class="link-icon-placeholder">${iconValue}</div>`;
     }
 
     a.innerHTML = `

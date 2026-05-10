@@ -1,4 +1,4 @@
-- [KiwiHacks Website](https://kiwihacks.org/) | assets/kiwihacks.png | featured
-- [Kiwihacks Signup Form!](https://forms.hackclub.com/kiwihacks) | assets/kiwihacks.png | featured
-- [Join our Discord](https://discord.gg/war7YQqz4s) | assets/kiwihacks.png
-- [Follow us on Instagram](https://instagram.com/kiwihacks) | https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/132px-Instagram_logo_2016.svg.png
+- [KiwiHacks Website](https://kiwihacks.org/) | globe | featured
+- [KiwiHacks Nova - Coming September](https://kiwihacks.fillout.com/nova) | rocket | featured
+- [Join our Discord](https://discord.gg/war7YQqz4s) | discord
+- [Follow us on Instagram](https://instagram.com/kiwihacks) | instagram
