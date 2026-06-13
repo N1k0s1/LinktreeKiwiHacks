@@ -1,4 +1,5 @@
+- [KiwiHacks Nova](https://nova.kiwihacks.org) | rocket | featured
+- [Sign up for KiwiHacks Nova](https://kiwihacks.fillout.com/nova) | form | featured
 - [KiwiHacks Website](https://kiwihacks.org/) | globe | featured
-- [KiwiHacks Nova - Coming September](https://kiwihacks.fillout.com/nova) | rocket | featured
 - [Join our Discord](https://discord.gg/war7YQqz4s) | discord
 - [Follow us on Instagram](https://instagram.com/kiwihacks) | instagram
