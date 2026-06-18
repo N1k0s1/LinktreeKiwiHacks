@@ -9,6 +9,7 @@ Edit this file to update the social icons in the top bar.
 - [Facebook](https://www.facebook.com/profile.php?id=61584706320570) | facebook
 - [Website](https://kiwihacks.org/) | globe
 - [Email](mailto:niko@kiwihacks.org) | envelope
+- [GitHub](https://github.com/orgs/KiwiHacksNZ) | github
 
 
 ## Available Icons
