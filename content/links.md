@@ -1,5 +1,8 @@
 - [KiwiHacks Nova](https://nova.kiwihacks.org) | rocket | featured
 - [Sign up for KiwiHacks Nova](https://kiwihacks.fillout.com/nova) | form | featured
 - [KiwiHacks Website](https://kiwihacks.org/) | globe | featured
+- [Become a Mentor](https://kiwihacks.fillout.com/mentor) | form
+- [KiwiHacks Beacons signup](https://kiwihacks.fillout.com/beacons) | rocket
+- [Become a Sponsor](mailto:niko@kiwihacks.org?subject=Sponsorship) | envelope
 - [Join our Discord](https://discord.gg/war7YQqz4s) | discord
 - [Follow us on Instagram](https://instagram.com/kiwihacks) | instagram
