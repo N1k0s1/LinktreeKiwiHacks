@@ -10,6 +10,7 @@ const ICON_MAP = {
     'twitter': 'fab fa-twitter',
     'x': 'fab fa-x-twitter',
     'youtube': 'fab fa-youtube',
+    'video': 'fas fa-video',
     'tiktok': 'fab fa-tiktok',
     'linkedin': 'fab fa-linkedin',
     'github': 'fab fa-github',
