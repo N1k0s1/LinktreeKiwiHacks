@@ -2,6 +2,7 @@
 - [Watch our TVNZ Breakfast feature](https://drive.google.com/file/d/1BpiWnlIsZmiLuyemVPS1bvPTzVDnIMV-/view?usp=sharing) | video | featured
 - [KiwiHacks Nova](https://nova.kiwihacks.org) | rocket | featured
 - [Sign up for KiwiHacks Nova](https://kiwihacks.fillout.com/nova) | form | featured
+- [Sign up for the September Community Lock In](https://kiwihacks.fillout.com/lock-in-september) | form | featured
 - [KiwiHacks Website](https://kiwihacks.org/) | globe | featured
 - [Become a Mentor](https://kiwihacks.fillout.com/mentor) | form
 - [KiwiHacks Beacons signup](https://kiwihacks.fillout.com/beacons) | rocket
