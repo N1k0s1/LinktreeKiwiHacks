@@ -6,7 +6,7 @@ Edit this file to update your links.
 
 - [KiwiHacks Website](https://kiwihacks.org/) | globe | featured
 - [KiwiHacks Nova - Coming September](https://kiwihacks.fillout.com/nova) | rocket | featured
-- [Join our Discord](https://discord.gg/war7YQqz4s) | discord
+- [Join our Discord](https://kiwihacks.org/dc) | discord
 - [Follow on Instagram](https://instagram.com/kiwihacks) | instagram
 - [Like us on Facebook](https://www.facebook.com/profile.php?id=61584706320570) | facebook
 
