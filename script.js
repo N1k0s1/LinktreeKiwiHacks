@@ -61,7 +61,7 @@ async function fetchSocialsFromMarkdown() {
 // Fallback socials
 const FALLBACK_SOCIALS = [
     { label: 'Instagram', url: 'https://instagram.com/kiwihacks', icon: 'instagram' },
-    { label: 'Discord', url: 'https://discord.gg/war7YQqz4s', icon: 'discord' },
+    { label: 'Discord', url: 'https://kiwihacks.org/dc', icon: 'discord' },
     { label: 'Website', url: 'https://kiwihacks.org/', icon: 'globe' }
 ];
 
@@ -126,7 +126,7 @@ const FALLBACK_LINKS = [
     { title: 'KiwiHacks Nova', url: 'https://nova.kiwihacks.org', icon: 'rocket', featured: true },
     { title: 'Sign up for KiwiHacks Nova', url: 'https://kiwihacks.fillout.com/nova', icon: 'form', featured: true },
     { title: 'KiwiHacks Website', url: 'https://kiwihacks.org/', icon: 'globe', featured: true },
-    { title: 'Join our Discord', url: 'https://discord.gg/war7YQqz4s', icon: 'discord', featured: false },
+    { title: 'Join our Discord', url: 'https://kiwihacks.org/dc', icon: 'discord', featured: false },
     { title: 'Follow us on Instagram', url: 'https://instagram.com/kiwihacks', icon: 'instagram', featured: false }
 ];
 

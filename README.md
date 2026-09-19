@@ -46,7 +46,7 @@ Open `links.md` and edit your links using this format:
 **Example:**
 ```markdown
 - [KiwiHacks Website](https://kiwihacks.org/) | https://kiwihacks.org/favicon.ico | featured
-- [Join our Discord](https://discord.gg/war7YQqz4s) | https://discord.com/icon.png
+- [Join our Discord](https://kiwihacks.org/dc) | https://discord.com/icon.png
 - [Follow on Instagram](https://instagram.com/kiwihacks) | https://instagram.com/favicon.ico
 ```
 

@@ -9,7 +9,7 @@ Edit this file to update the social icons in the top bar of link.kiwihacks.org/s
 - [LinkedIn](https://www.linkedin.com/in/nikopurdie/) | linkedin
 - [Website](https://kiwihacks.org/) | globe
 - [Instagram](https://instagram.com/kiwihacks) | instagram
-- [Discord](https://discord.gg/war7YQqz4s) | discord
+- [Discord](https://kiwihacks.org/dc) | discord
 
 ## Available Icons
 

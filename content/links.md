@@ -5,6 +5,6 @@
 - [KiwiHacks Website](https://kiwihacks.org/) | globe | featured
 - [Become a Mentor](https://kiwihacks.fillout.com/mentor) | form
 - [KiwiHacks Beacons signup](https://kiwihacks.fillout.com/beacons) | rocket
-- [Join our Discord](https://discord.gg/war7YQqz4s) | discord
+- [Join our Discord](https://kiwihacks.org/dc) | discord
 - [Follow us on Instagram](https://instagram.com/kiwihacks) | instagram
 - [Support KiwiHacks](/supporters/) | handshake | featured
