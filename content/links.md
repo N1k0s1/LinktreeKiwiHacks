@@ -1,10 +1,7 @@
-- [Watch the Nova announcement video](https://youtu.be/rkwgCF-PL0A) | youtube | featured
-- [Watch our TVNZ Breakfast feature](https://drive.google.com/file/d/1BpiWnlIsZmiLuyemVPS1bvPTzVDnIMV-/view?usp=sharing) | video | featured
-- [KiwiHacks Nova](https://nova.kiwihacks.org) | rocket | featured
-- [Sign up for KiwiHacks Nova](https://kiwihacks.fillout.com/nova) | form | featured
+- [Join our Discord to hear about future events](https://kiwihacks.org/dc) | discord | featured
 - [KiwiHacks Website](https://kiwihacks.org/) | globe | featured
+- [Watch our TVNZ Breakfast feature](https://drive.google.com/file/d/1BpiWnlIsZmiLuyemVPS1bvPTzVDnIMV-/view?usp=sharing) | video
 - [Become a Mentor](https://kiwihacks.fillout.com/mentor) | form
 - [KiwiHacks Beacons signup](https://kiwihacks.fillout.com/beacons) | rocket
-- [Join our Discord](https://kiwihacks.org/dc) | discord
 - [Follow us on Instagram](https://instagram.com/kiwihacks) | instagram
 - [Support KiwiHacks](/supporters/) | handshake | featured

@@ -261,6 +261,24 @@ h1 {
     color: #a1a1aa;
 }
 
+/* Discord call to action */
+.link-button.featured.discord-cta {
+    background: #5865f2;
+    color: #ffffff;
+}
+
+.link-button.featured.discord-cta:hover {
+    background: #4752c4;
+}
+
+.link-button.featured.discord-cta .link-icon-discord {
+    background: rgba(255, 255, 255, 0.18);
+}
+
+.link-button.featured.discord-cta .link-arrow {
+    color: #ffffff;
+}
+
 /* Back link */
 .back-link {
     display: inline-flex;
