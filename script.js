@@ -123,10 +123,8 @@ async function fetchLinksFromMarkdown() {
 
 // Fallback links if markdown fails
 const FALLBACK_LINKS = [
-    { title: 'KiwiHacks Nova', url: 'https://nova.kiwihacks.org', icon: 'rocket', featured: true },
-    { title: 'Sign up for KiwiHacks Nova', url: 'https://kiwihacks.fillout.com/nova', icon: 'form', featured: true },
+    { title: 'Join our Discord to hear about future events', url: 'https://kiwihacks.org/dc', icon: 'discord', featured: true },
     { title: 'KiwiHacks Website', url: 'https://kiwihacks.org/', icon: 'globe', featured: true },
-    { title: 'Join our Discord', url: 'https://kiwihacks.org/dc', icon: 'discord', featured: false },
     { title: 'Follow us on Instagram', url: 'https://instagram.com/kiwihacks', icon: 'instagram', featured: false }
 ];
 
@@ -138,7 +136,8 @@ function createLinkButton(link) {
     const opensInPlace = /^(mailto:|tel:|\/|\.)/i.test(link.url);
     a.target = opensInPlace ? '_self' : '_blank';
     a.rel = 'noopener noreferrer';
-    a.className = `link-button${link.featured ? ' featured' : ''}`;
+    const isDiscordCta = link.featured && link.icon.trim().toLowerCase() === 'discord';
+    a.className = `link-button${link.featured ? ' featured' : ''}${isDiscordCta ? ' discord-cta' : ''}`;
 
     // Icon or Image
     let iconHtml;
